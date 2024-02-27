@@ -41,10 +41,10 @@ async def update_todo(todo_id: int,todo_obj: Todo):
     return {"todo":"No todos found"}
 
 ## delete todo
-@app.delete("/todos/{todo_obj}")
-async def delete_todos(todo_obj: int):
+@app.delete("/todos/{todo_id}")
+async def delete_todos(todo_id: int):
     for todo in todos:
-        if todo.id == todo_obj:
+        if todo.id == todo_id:
             todos.remove(todo)
             return {"todo":"todo has been deleted"}
     return {"todo":"No todos found"}
