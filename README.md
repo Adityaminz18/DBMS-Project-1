@@ -17,7 +17,7 @@ This is the code repository for a community forum web application. The applicati
 ## Technologies
 
 - 🗃️ MySQL Database
-- 🐍 Django Framework  
+- 🐍 Django Framework/FastAPI (not yet decided)  
 - 🌐 HTML/CSS/JavaScript
 - 📚 GitHub for version control
 
