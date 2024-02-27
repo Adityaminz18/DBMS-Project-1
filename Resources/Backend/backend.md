@@ -17,3 +17,5 @@
 - [Python For Beginners (Full Course)](https://www.youtube.com/playlist?list=PLZJBfja3V3Rsbiz84Z63IXnTQZH_Rnfuo)
 - [Web Development Tutorials](https://www.youtube.com/playlist?list=PLZJBfja3V3RuH2VRbRh9F0mB9hfdzkUKk) - FastAPI
 
+2. [Eric Roby](https://www.youtube.com/@codingwithroby)
+- [FastAPI Tutorials](https://www.youtube.com/playlist?list=PLK8U0kF0E_D6l19LhOGWhVZ3sQ6ujJKq_)
