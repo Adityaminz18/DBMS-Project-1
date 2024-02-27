@@ -1,13 +1,3 @@
-# Project Status
-
-- [ ] Database Schema Completed
-- [ ] Backend APIs Developed
-- [ ] Frontend Implementation Ongoing
-- [ ] Testing and QA in Progress
-- [ ] Continuous Integration Set Up
-- [ ] Deployment Planning
-- [ ] Project Completion
-
 # Project Checklist
 
 ## Topics

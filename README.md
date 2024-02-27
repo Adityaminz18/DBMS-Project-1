@@ -32,4 +32,10 @@ This is the code repository for a community forum web application. The applicati
 
 ## Project Status
 
-This project was started on February 2, 2024, and is currently under development.
+- [ ] Database Schema Completed
+- [ ] Backend APIs Developed
+- [ ] Frontend Implementation Ongoing
+- [ ] Testing and QA in Progress
+- [ ] Continuous Integration Set Up
+- [ ] Deployment Planning
+- [ ] Project Completion
