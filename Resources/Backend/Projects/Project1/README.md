@@ -9,7 +9,7 @@
 ![Get Single todo](/Resources/Backend/Projects/Project1/fastapi-project/images/image-2.png)
 3. Create todos - /todos
 ![Create todos](/Resources/Backend/Projects/Project1/fastapi-project/images/image-1.png)
-4. Update todos - /todos/{todo_id}
+4. Update todos - /todos/
 ![Update todos](/Resources/Backend/Projects/Project1/fastapi-project/images/image-3.png)
 5. delete todo - /todos/{todo_id}
 ![delete todo](/Resources/Backend/Projects/Project1/fastapi-project/images/image-4.png)
