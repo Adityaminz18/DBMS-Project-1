@@ -32,10 +32,10 @@ async def create_todos(todo: Todo):
     
 
 ## update todo
-@app.put("/todos/{todo_id}")
-async def update_todo(todo_id: int,todo_obj: Todo):
+@app.put("/todos")
+async def update_todo(todo_obj: Todo):
     for todo in todos:
-        if todo.id == todo_id:
+        if todo.id == todo_obj.id:
             todo.item = todo_obj.item
             return {"todo":"todo updated"}
     return {"todo":"No todos found"}
