@@ -12,6 +12,5 @@
 ## Youtube Channels
 
 1. [pixegami](https://www.youtube.com/@pixegami/videos) for python and basic fastapi stuff
-### Useful playlist
 - [Python For Beginners (Full Course)](https://www.youtube.com/playlist?list=PLZJBfja3V3Rsbiz84Z63IXnTQZH_Rnfuo)
 - [Web Development Tutorials](https://www.youtube.com/playlist?list=PLZJBfja3V3RuH2VRbRh9F0mB9hfdzkUKk) - FastAPI
