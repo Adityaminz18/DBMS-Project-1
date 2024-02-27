@@ -8,9 +8,12 @@
 3. [How to build a FastAPI app with MySQL database (step by step guide)](https://www.youtube.com/watch?v=zzOwU41UjTM)
 4. [Pydantic Tutorial • Solving Python's Biggest Problem](https://www.youtube.com/watch?v=XIdQ6gO3Anc)
 5. [Python FastAPI Tutorial: Build a REST API in 15 Minutes](https://www.youtube.com/watch?v=iWS9ogMPOI0)
+6. [Why You NEED To Learn FastAPI | Hands On Project](https://www.youtube.com/watch?v=cbASjoZZGIw)
+
 
 ## Youtube Channels
 
 1. [pixegami](https://www.youtube.com/@pixegami/videos) for python and basic fastapi stuff
 - [Python For Beginners (Full Course)](https://www.youtube.com/playlist?list=PLZJBfja3V3Rsbiz84Z63IXnTQZH_Rnfuo)
 - [Web Development Tutorials](https://www.youtube.com/playlist?list=PLZJBfja3V3RuH2VRbRh9F0mB9hfdzkUKk) - FastAPI
+
