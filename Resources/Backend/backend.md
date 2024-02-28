@@ -9,6 +9,8 @@
 4. [Pydantic Tutorial • Solving Python's Biggest Problem](https://www.youtube.com/watch?v=XIdQ6gO3Anc)
 5. [Python FastAPI Tutorial: Build a REST API in 15 Minutes](https://www.youtube.com/watch?v=iWS9ogMPOI0)
 6. [Why You NEED To Learn FastAPI | Hands On Project](https://www.youtube.com/watch?v=cbASjoZZGIw)
+7. [FastAPI MySQL REST API in Python | CRUD Operations | Swagger | SQLAlchemy](https://youtu.be/4Zy90rd0bkU?si=N0OcHAhD34eBF1V5)
+8. [FastAPI - A python framework | Full Course](https://youtu.be/7t2alSnE2-I?si=PkcUblILkMUwsFqw)
 
 
 ## Youtube Channels
