@@ -15,6 +15,7 @@
 - [Learn HTML in 1 hour 🌎](https://youtu.be/HD13eq_Pmp8?si=8FSFZ0JMCXzhLyi9)
 - [HTML Tutorial - How to Make a Super Simple Website](https://youtu.be/PlxWf493en4?si=uT_b3qz8cafFoJui)
 - [Sigma Web Development Course - Web Development Tutorials in Hindi playlist! 🗿](https://youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&si=S5cpo8ExTSBkN-Au)
+- [HTML5 Website Project for Beginners | First HTML Project Tutorial](https://youtu.be/T5PD8ofhiug?si=QsIGcv8q9lXg4745)
 
 ### Online Courses
 - [Foundations of Front-End Web Development](https://www.udemy.com/share/101ryM3@STq3XFwtzX7YUpphXaJciwlGJmVTWLqsqNtgNOKzcUVIeaSh3TW453ChXGDNNMYMCg==/)
