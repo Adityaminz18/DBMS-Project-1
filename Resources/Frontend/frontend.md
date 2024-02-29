@@ -1,2 +1,2 @@
 ## HTML
-- https://developer.mozilla.org/en-US/docs/Web/HTML
+- [html]https://developer.mozilla.org/en-US/docs/Web/HTML
