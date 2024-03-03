@@ -1,5 +1,6 @@
 ## FastAPI Documentation
 - [FastAPI](https://fastapi.tiangolo.com/)
+- [Tutorial Blog](https://www.fastapitutorial.com/blogs/)
 
 ## Youtube Videos
 
