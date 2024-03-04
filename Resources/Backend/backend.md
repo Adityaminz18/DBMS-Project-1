@@ -12,6 +12,7 @@
 6. [Why You NEED To Learn FastAPI | Hands On Project](https://www.youtube.com/watch?v=cbASjoZZGIw)
 7. [FastAPI MySQL REST API in Python | CRUD Operations | Swagger | SQLAlchemy](https://youtu.be/4Zy90rd0bkU?si=N0OcHAhD34eBF1V5)
 8. [FastAPI - A python framework | Full Course](https://youtu.be/7t2alSnE2-I?si=PkcUblILkMUwsFqw)
+9. [FastAPI Prerequisites](https://www.youtube.com/playlist?list=PLHzE1YRqw8tefGsrAOmoz8tW51zFkRJvf)
 
 
 ## Youtube Channels
