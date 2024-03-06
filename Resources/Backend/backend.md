@@ -23,3 +23,7 @@
 
 2. [Eric Roby](https://www.youtube.com/@codingwithroby)
 - [FastAPI Tutorials](https://www.youtube.com/playlist?list=PLK8U0kF0E_D6l19LhOGWhVZ3sQ6ujJKq_)
+
+## References
+
+- [Build an App With FastAPI for Python](https://kinsta.com/blog/fastapi/#building-your-app-with-fastapi)
