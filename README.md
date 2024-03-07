@@ -32,7 +32,7 @@ This is the code repository for a community forum web application. The applicati
 
 ## Project Status
 
-- [ ] Database Schema Completed
+- [x] Database Schema Completed
 - [ ] Backend APIs Developed
 - [ ] Frontend Implementation Ongoing
 - [ ] Testing and QA in Progress
