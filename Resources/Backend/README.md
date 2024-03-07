@@ -24,6 +24,9 @@
 2. [Eric Roby](https://www.youtube.com/@codingwithroby)
 - [FastAPI Tutorials](https://www.youtube.com/playlist?list=PLK8U0kF0E_D6l19LhOGWhVZ3sQ6ujJKq_)
 
+3. [BitFumes](https://www.youtube.com/@Bitfumes) - Important
+- [FastAPI - A python framework | Full Course](https://youtu.be/7t2alSnE2-I?si=PkcUblILkMUwsFqw)
+
 ## References
 
 - [Build an App With FastAPI for Python](https://kinsta.com/blog/fastapi/#building-your-app-with-fastapi)
