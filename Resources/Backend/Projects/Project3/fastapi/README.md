@@ -13,7 +13,7 @@ docker pull admindocker18/test
 ### Running with FastAPI
 1. Navigate to the project directory:
 ```bash
-cd Resources/Backend/Project/Project3/fast-api
+cd Resources/Backend/Project/Project3/fastapi
 ```
 2. Install the required dependencies:
 ```bash
