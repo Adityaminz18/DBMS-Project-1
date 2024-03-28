@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="password"],
+        button[type="submit"],
+        button[type="button"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .error {
+            color: red;
+        }
+        .success {
+            color: green;
+        }
+        .redirect {
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="loginForm">
+        <h2>User Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Login</button>
+        <div class="redirect" id="redirectMessage"></div>
+        <div id="message" class="message"></div>
+        <button type="button" onclick="window.location.href='/signup'">New user? Let's signup</button>
+    </form>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            var form = event.target;
+            var formData = new FormData(form); // Get form data
+            
+            var jsonData = {}; // Create an empty object for JSON data
+
+            formData.forEach(function(value, key){
+                jsonData[key] = value; // Convert form data to JSON
+            });
+
+            // Send data to server
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/login', true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(JSON.stringify({
+                "username": jsonData.username,
+                "password": jsonData.password
+            }));
+
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    document.getElementById('message').innerHTML = '<div class="success">Logged in successfully</div>';
+                    var countdown = 5;
+                    var countdownInterval = setInterval(function() {
+                        document.getElementById('redirectMessage').innerHTML = '<div class="redirect">Redirecting in ' + countdown + ' seconds...</div>';
+                        countdown--;
+                        if (countdown < 0) {
+                            clearInterval(countdownInterval);
+                            window.location.href = '/dashboard';
+                        }
+                    }, 1000); // Update countdown every second
+                } else if (xhr.status === 400) {
+                    var responseData = JSON.parse(xhr.responseText);
+                    document.getElementById('message').innerHTML = '<div class="error">' + responseData.detail + '</div>';
+                    // Handle error with detail message
+                } else {
+                    document.getElementById('message').innerHTML = '<div class="error">Error: ' + xhr.statusText + '</div>';
+                    // Optionally, handle other errors
+                }
+            };
+        });
+    </script>
+</body>
+</html>
