@@ -9,6 +9,9 @@ This repository contains a basic demo backend code built using FastAPI. The code
 ```bash
 docker pull admindocker18/test
 ```
+```bash
+docker run -d -p 80:8000 --name test admindocker18/test
+```
 
 ### Running with FastAPI
 1. Navigate to the project directory:
