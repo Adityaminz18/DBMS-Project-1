@@ -13,6 +13,7 @@
 7. [FastAPI MySQL REST API in Python | CRUD Operations | Swagger | SQLAlchemy](https://youtu.be/4Zy90rd0bkU?si=N0OcHAhD34eBF1V5)
 8. [FastAPI - A python framework | Full Course](https://youtu.be/7t2alSnE2-I?si=PkcUblILkMUwsFqw)
 9. [FastAPI Prerequisites](https://www.youtube.com/playlist?list=PLHzE1YRqw8tefGsrAOmoz8tW51zFkRJvf)
+10. [Quickly Authenticate Users with FastAPI and Token Authentication](https://www.youtube.com/watch?v=5GxQ1rLTwaU)
 
 
 ## Youtube Channels
