@@ -9,7 +9,7 @@ Django==5.0.1
 dnspython==2.6.1
 emailfinder==0.3.0b0
 fastapi==0.109.2
-h11==0.14.0
+h11==0.16.0
 httptools==0.6.1
 idna==3.6
 Jinja2==3.1.3
